@@ -1,7 +1,3 @@
-// "ALIBAZAR Version 2.0" - ware updated all classes for products
-// Done by 'Rustam Zokirov' and 'Alimov Abdullokh'
-// EightSoft Academy Product
-// All rights reserved
 
 
 #include <iostream>  // I/O stream
@@ -78,7 +74,7 @@ void F_General_Menu() {
 	for (int i = 0; i < 1000; i++) {
 		system("cls");
 		cout << "____________________________________________________________________________________________________ \n";
-		cout << "        A L I B A Z A R                                             A U T H E N T I C A T I O N     \n";
+		cout << "        B I G B A Z A R                                             A U T H E N T I C A T I O N     \n";
 		cout << "____________________________________________________________________________________________________\n\n";
 		cout << "\t\t\t\t\t  Authentication \n" << endl;
 		cout << "\t\t\t\t\t   1. Sign in" << endl;
@@ -100,7 +96,7 @@ void F_General_Menu() {
 			for (int i = 0; i != 1;) {
 				system("cls");
 				cout << "____________________________________________________________________________________________________ \n";
-				cout << "        A L I B A Z A R                                             R E G I S T R A T I O N         \n";
+				cout << "        B I G B A Z A R                                            R E G I S T R A T I O N         \n";
 				cout << "____________________________________________________________________________________________________\n\n";
 				cout << "\t\t\t\t       Example of Registration: " << endl;
 				cout << "\t\t\t\t       ________________________" << endl;
@@ -171,7 +167,7 @@ void F_General_Menu() {
 
 void F_Developers() {
 	cout << "____________________________________________________________________________________________________ \n";
-	cout << "        A L I B A Z A R                                                           A B O U T        \n";
+	cout << "        B I G B A Z A R                                                           A B O U T        \n";
 	cout << "____________________________________________________________________________________________________\n\n";
 	cout << "\n\t\t\t\t'AliBazar' Online Shopping Aplication " << endl << endl;
 	cout << "\t\t\t\t   Team Name: EightSoft " << endl;
@@ -190,7 +186,7 @@ void F_Sign_in() {
 	for (int i = 0; i < 1000; i++) {
 		system("cls");
 		cout << "____________________________________________________________________________________________________ \n";
-		cout << "        A L I B A Z A R                                                       S I G N  I N          \n";
+		cout << "        B I G B A Z A R                                                       S I G N  I N          \n";
 		cout << "____________________________________________________________________________________________________\n\n";
 		cout << "\t\t\t\t\t     Sign in\n\n";
 		cout << "\t\t\t\t\t1. Sign in as Owner" << endl;
@@ -203,7 +199,7 @@ void F_Sign_in() {
 
 			system("cls");
 			cout << "____________________________________________________________________________________________________ \n";
-			cout << "        A L I B A Z A R                                                          O W N E R          \n";
+			cout << "        B I G B A Z A R                                                          O W N E R          \n";
 			cout << "____________________________________________________________________________________________________\n\n";
 			cout << "\t\t\t\t        Owner Authentication\n\n";
 			cout << "\t\t\t\t\tLogin    : "; cin >> Login_Sign;
@@ -225,7 +221,7 @@ void F_Sign_in() {
 		case 50: {  // Sign in as User
 			system("cls");
 			cout << "____________________________________________________________________________________________________ \n";
-			cout << "        A L I B A Z A R                                                     C U S T O M E R         \n";
+			cout << "        B I G B A Z A R                                                     C U S T O M E R         \n";
 			cout << "____________________________________________________________________________________________________\n\n";
 			cout << "\t\t\t\t      Customer Authentication\n\n";
 			cout << "\t\t\t\t\tLogin    : "; cin >> Login_Sign;
@@ -275,7 +271,7 @@ void F_Sign_in() {
 void F_Logo() {
 	system("cls");
 	cout << "____________________________________________________________________________________________________ \n";
-	cout << "        A L I B A Z A R                                                    8. Account Info         \n";
+	cout << "        B I G B A Z A R                                                    8. Account Info         \n";
 	cout << "____________________________________________________________________________________________________\n\n";
 }
 
@@ -320,7 +316,7 @@ void F_User_Main_Menu() {
 		case 56: { // User info   
 			system("cls");
 			cout << "____________________________________________________________________________________________________ \n";
-			cout << "        A L I B A Z A R                                                   U S E R  I N F O         \n";
+			cout << "        B I G B A Z A R                                                   U S E R  I N F O         \n";
 			cout << "____________________________________________________________________________________________________\n\n";
 			cout << "\t\t\t\t    User Information:" << endl << endl;
 			cout << "\t\t\t\t      User Name  : " << Name_Memory << endl;
@@ -502,7 +498,7 @@ void F_Vegetables_Fruits_Menu() {
 		case 56: { // User info   
 			system("cls");
 			cout << "____________________________________________________________________________________________________ \n";
-			cout << "        A L I B A Z A R                                                   U S E R  I N F O         \n";
+			cout << "        B I G B A Z A R                                                   U S E R  I N F O         \n";
 			cout << "____________________________________________________________________________________________________\n\n";
 			cout << "\t\t\t\t    User Information:" << endl << endl;
 			cout << "\t\t\t\t      User Name  : " << Name_Memory << endl;
@@ -662,7 +658,7 @@ void F_Water_Beverages_Menu() {
 		case 56: { // User info   
 			system("cls");
 			cout << "____________________________________________________________________________________________________ \n";
-			cout << "        A L I B A Z A R                                                   U S E R  I N F O         \n";
+			cout << "        B I G B A Z A R                                                   U S E R  I N F O         \n";
 			cout << "____________________________________________________________________________________________________\n\n";
 			cout << "\t\t\t\t    User Information:" << endl << endl;
 			cout << "\t\t\t\t      User Name  : " << Name_Memory << endl;
@@ -824,7 +820,7 @@ void F_Bread_Bakery_Menu() {
 		case 56: { // User info   
 			system("cls");
 			cout << "____________________________________________________________________________________________________ \n";
-			cout << "        A L I B A Z A R                                                   U S E R  I N F O         \n";
+			cout << "        B I G B A Z A R                                                   U S E R  I N F O         \n";
 			cout << "____________________________________________________________________________________________________\n\n";
 			cout << "\t\t\t\t    User Information:" << endl << endl;
 			cout << "\t\t\t\t      User Name  : " << Name_Memory << endl;
@@ -968,7 +964,7 @@ void F_Cart_Check() {
 void F_Logo_Owner() {
 	system("cls");
 	cout << "____________________________________________________________________________________________________ \n";
-	cout << "        A L I B A Z A R                                                  O W N E R  M E N U         \n";
+	cout << "        B I G B A Z A R                                                  O W N E R  M E N U         \n";
 	cout << "____________________________________________________________________________________________________\n\n";
 }
 
@@ -994,7 +990,7 @@ void F_Owner_Main_Menu() {
 
 			system("cls");
 			cout << "____________________________________________________________________________________________________ \n";
-			cout << "        A L I B A Z A R                                           C U S T O M E R S  L I S T        \n";
+			cout << "        B I G B A Z A R                                          C U S T O M E R S  L I S T        \n";
 			cout << "____________________________________________________________________________________________________\n\n";
 			cout << "\n\t\t\t   Customers list :" << endl << endl;
 
